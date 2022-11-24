@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "dependencies": {
+    "connect-redis": "^6.1.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "ioredis": "^5.2.4",
+    "nodemon": "^2.0.20"
+  },
+  "name": "session-based-auth-redis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
